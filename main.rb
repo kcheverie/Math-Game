@@ -23,5 +23,3 @@ require_relative 'filters'
     end
 
     get_winning_player
-
-    # OOP MATH GAMEfasdfd
