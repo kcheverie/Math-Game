@@ -3,8 +3,12 @@ require 'colorize'
 require_relative 'filters'
 
 
+
+
+
+
   get_player_names
-  player_lives
+  
   system 'clear'
   start_game
 
@@ -16,7 +20,7 @@ require_relative 'filters'
       puts answer
       player_remaining_lives
 
-      if (@player_1_lives == 0) || (@player_2_lives == 0)
+      if (@player_1.lives == 0) || (@player_2.lives == 0)
         break
       end
    
